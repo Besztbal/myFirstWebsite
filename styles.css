@@ -23,23 +23,23 @@ header {
   padding: 0px;
   display: block;
   background-color:#333333;
-  height: 50px;
+  height: 80px;
   width: 100%;
 }
 
 nav {
   overflow: hidden;
   display: block;
-  padding-top: 10px;
+  padding-top: 25px;
   padding-left: 10%;
   padding-right: 10%;
   text-align: right;
-  background-color: #333333;
+  
   
 }
 
 a {
-  font-size: 20px;
+  font-size: 25px;
   color: #ff0099;
   text-decoration: underline;
   padding: 15px;
