@@ -1,0 +1,96 @@
+body {
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.fixednav {
+  margin: 0px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  list-style: none;
+  background-color: #333333;
+  padding-right: 10%;
+}
+
+.fixednav a {
+  display: block;
+  color: #ff0099;
+  text-decoration: none;
+}
+
+.leftnav {
+  flex-grow: 1; 
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+h1 {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-size: 72px;
+}
+
+h2 {
+  color: #ff0099;
+  font-size: 36px;
+}
+
+.links {
+  padding: 1em;
+  color: #ff0099;
+  font-size: 20px;
+  text-decoration: underline;
+  display: block;
+}
+
+.fixednav a:hover {
+  color: white;
+  
+}
+
+
+
+hr {
+  width: 30px;
+  height: 1px;
+  background: repeating-linear-gradient(90deg,#000,#000 6px, transparent 6px, transparent 12px);
+  border-top: 1px #000;
+  
+}
+
+p {
+  font-family: 'Roboto';
+  line-height: 30px;
+}
+.definitions {
+  font-family: 'Courier New', Courier, monospace;
+}
+strong {
+  font-family: "Audiowide", sans-serif;
+}
+
+#def {
+  text-align: center;
+}
+
+@media all and (min-width: 600px) {
+  .fixednav { 
+    flex-direction: column wrap; }
+}
+
+
+@media all and (min-width: 800px) {
+  .fixednav { 
+    flex-flow: space-around;
+    }
+  }
+  
+

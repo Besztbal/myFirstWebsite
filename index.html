@@ -5,46 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first webpage</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="/assets/fonts/Roboto/Roboto-Bold.ttf">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-
+    <title>myFirstwebsite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 </head>
 
-<body background="./assets/background.png">
-    <header>
-        <nav>
-            <a href="https://en.wikipedia.org/wiki/Aperture" target="_blank"><img src="./assets/logo.svg" alt="aperture" srcset=""></a>
-            <a href="index.html" >HOME</a>
-            <a href="https://en.wikipedia.org/wiki/Wiki" target="_blank">WIKI</a>
-            <a href="https://github.com" target="_blank">GITHUB</a>
-            <a href="https://hu.linkedin.com/" target="_blank">LINKDIN</a>
-        </nav>
-    </header>
-
-
+<body background="./assets/topography.png">
+    <nav class="navcontainer">
+        <ul class="fixednav">
+            <li class="leftnav"><a href="https://en.wikipedia.org/wiki/Aperture"><img src="./assets/aperture.svg" alt=""></li></a>
+            <li><a class="links" href="./index.html" >HOME</a></li>
+            <li><a class="links" href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">WIKI</a></li>
+            <li><a class="links" href="https://github.com/" target="_blank">GITHUB</a></li>
+            <li><a class="links" href="https://www.linkedin.com/" target="_blank">LINKDIN</a></li>
+        </ul>
+    </nav>
     <div class="container">
         <h1>Besztercei Balázs </h1>
         <h2>biológus</h2>
         <div class="description">
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum."</p>
+            <p>"Kutatóként tanulmányozom a sejtekben lejátszódó komplex folyamatokat, amihez mikroszkópot használok. Ez
+                magában foglalja a minták előkészítését, vizsgálatukat és felvételek készítését mikroszkóp alatt. A kapott
+                képeket feldolgozom, kiértékelem."
+            </p>
         </div>
 
         <br>
 
-        
-         <hr>
-      
+        <div>
+            <hr>
+        </div>
+
 
         <br>
 
-        <div class="paragraph">
+        <div class="definitions">
             <h2 id="def">Definíciók:</h2>
             <p><strong>Logikai kapu</strong>:Egy olyan idealizált vagy fizikai eszköz ami logikai alapmüveletet valósít
                 meg egy vagy több bináris bemeneten és produkál egy bináris kimenetet.</p>
@@ -53,7 +49,7 @@
                 csak a számokat értik, így a 'a' vagy '@' karakterek értelmezéséhez szükséges számosított értékeket írja
                 le.</p>
 
-            <p><strong>RAM</strong>:Egy véletlen elérésű írható–olvasható adattároló eszköz. Tárolja a CPU által
+            <p><strong>RAM (Ramdom Access Memory)</strong>:Egy véletlen elérésű írható–olvasható adattároló eszköz. Tárolja a CPU által
                 végrehajtandó programokat és a feldolgozásra váró adatokat. Egy adott memóriarész elérésének gyorsasága
                 független az elhelyezkedésétől.
             </p>
@@ -64,16 +60,12 @@
             <p><strong>Domain Name System (tartománynévrendszer):</strong>Egy hierarchikus, nagymértékben decentralizált
                 elnevezési rendszer számítógépek, szolgáltatások, illetve az internetre vagy egy magánhálózatra kötött
                 bármilyen erőforrás számára.</p>
-                
+
             <p><strong>Internet</strong>:Egy alkalmazás protokol elosztott, együttműködő és hipermédiás információs
                 rendszerek részére. A World Wide Web adat kommunikációjának alapja. Ez az alapvető protokol a hypertext
                 cseréjére és mozgatására.</p>
 
         </div>
-
-
-
-
 
 </body>
 
